@@ -9,30 +9,25 @@
     stroke-linecap: round;
 }
 
+
+
 .left-eyebrow{
-    transition-property: fill 2s linear;
+    transition: all .5s linear;
     transform: rotate(80deg);
     transform-origin: 100px 82px;
-    fill: red;
-   
 }
 
 .right-eyebrow{
-    transition-property: fill 2s linear;
+    transition: all  .5s linear;
     transform: rotate(100deg);
     transform-origin: 156px 82px;
-    fill: red;
-    
-
 }
 
 .smiley:hover .left-eyebrow{
-    fill: blue;
-    
+    transform: rotate(100deg);
 }
 
 .smiley:hover .right-eyebrow{
-  fill: blue;
-    
+    transform: rotate(80deg);
 }
 
